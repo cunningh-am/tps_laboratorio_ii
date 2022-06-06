@@ -130,12 +130,12 @@ namespace InventarioNS
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"RAZON SOCIAL: {this.razonSocial}");
-            sb.AppendLine($"----------VENTAS------------");
-            sb.AppendLine($"CONSOLAS GAMECUBE VENDIDAS: {this.GananciasPorConsolasGameCube}");
-            sb.AppendLine($"JUEGOS GAMECUBE VENDIDOS: {this.GananciasPorJuegosDeGameCube}");
-            sb.AppendLine($"CONSOLAS PLAYSTATION2 VENDIDAS: {this.GananciasPorConsolasPs2}");
-            sb.AppendLine($"JUEGOS PLAYSTATION2 VENDIDOS: {this.GananciasPorJuegosDePlay2}");
-            sb.AppendLine($"GANANCIAS TOTALES: {this.GananciasTotales}");
+            sb.AppendLine($"----------GANANCIAS------------");
+            sb.AppendLine($"POR VENTA DE CONSOLAS GAMECUBE: ${this.GananciasPorConsolasGameCube}");
+            sb.AppendLine($"JUEGOS DE GAMECUBE: ${this.GananciasPorJuegosDeGameCube}");
+            sb.AppendLine($"POR VENTA DE CONSOLAS PLAYSTATION2:$ {this.GananciasPorConsolasPs2}");
+            sb.AppendLine($"JUEGOS DE PLAYSTATION2: ${this.GananciasPorJuegosDePlay2}");
+            sb.AppendLine($"GANANCIAS TOTALES: ${this.GananciasTotales}");
 
             sb.AppendLine("------------INVENTARIO-----------");
             foreach (Producto prod in inventarioEnStock)

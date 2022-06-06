@@ -14,4 +14,46 @@
     <Color>Rosa</Color>
     <Tipo>GameCube</Tipo>
   </Producto>
+  <Producto xsi:type="Videojuego">
+    <Nombre>PES 2011</Nombre>
+    <Precio>1270</Precio>
+    <UnidadesVendidas>20</UnidadesVendidas>
+    <Genero>Deporte</Genero>
+    <ParaConsola>PS2</ParaConsola>
+  </Producto>
+  <Producto xsi:type="Videojuego">
+    <Nombre>Anibal Pachano Sim</Nombre>
+    <Precio>1009</Precio>
+    <UnidadesVendidas>1</UnidadesVendidas>
+    <Genero>Simulacion</Genero>
+    <ParaConsola>GameCube</ParaConsola>
+  </Producto>
+  <Producto xsi:type="PlayStation2">
+    <Nombre>Ps2 Slim</Nombre>
+    <Precio>600</Precio>
+    <UnidadesVendidas>200</UnidadesVendidas>
+    <Color>Negro</Color>
+    <Tipo>PS2</Tipo>
+  </Producto>
+  <Producto xsi:type="GameCube">
+    <Nombre>GameCube Redonda</Nombre>
+    <Precio>55069</Precio>
+    <UnidadesVendidas>120</UnidadesVendidas>
+    <Color>Rojo</Color>
+    <Tipo>GameCube</Tipo>
+  </Producto>
+  <Producto xsi:type="Videojuego">
+    <Nombre>Chola Fighter</Nombre>
+    <Precio>57</Precio>
+    <UnidadesVendidas>2</UnidadesVendidas>
+    <Genero>Deporte</Genero>
+    <ParaConsola>PS2</ParaConsola>
+  </Producto>
+  <Producto xsi:type="Videojuego">
+    <Nombre>Mario El Albañil</Nombre>
+    <Precio>44</Precio>
+    <UnidadesVendidas>0</UnidadesVendidas>
+    <Genero>Aventura</Genero>
+    <ParaConsola>GameCube</ParaConsola>
+  </Producto>
 </ArrayOfProducto>
