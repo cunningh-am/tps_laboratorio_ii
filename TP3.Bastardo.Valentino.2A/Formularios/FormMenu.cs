@@ -23,7 +23,7 @@ namespace Formularios
 
         private void FormMenu_Load(object sender, EventArgs e)
         {
-            inv = new Inventario("CholaGamer");
+            inv = new Inventario("Inca Games");
         }
 
         private void btn_AgregarProducto_Click(object sender, EventArgs e)
@@ -38,7 +38,7 @@ namespace Formularios
             }
             else
             {
-                MessageBox.Show("Cancelado");
+                MessageBox.Show("No se agregó un producto","Operacion cancelada",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
             }
 
         }

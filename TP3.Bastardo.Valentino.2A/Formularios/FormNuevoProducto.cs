@@ -99,7 +99,7 @@ namespace Formularios
                     catch (InventarioException ex)
                     {
 
-                        MessageBox.Show($"ERROR DE TIPO {ex.GetType()}: \nEse videojuego ya esta registrado");
+                        MessageBox.Show($"ERROR DE TIPO {ex.GetType()}: \nEse videojuego ya esta registrado","Operacion cancelada",MessageBoxButtons.OK,MessageBoxIcon.Error);
                     }
                 }
                 else
@@ -116,7 +116,7 @@ namespace Formularios
                         catch (InventarioException ex)
                         {
 
-                            MessageBox.Show($"ERROR DE TIPO {ex.GetType()}: \nEsa consola ya esta registrada");
+                            MessageBox.Show($"ERROR DE TIPO {ex.GetType()}: \nEsa consola ya esta registrada", "Operacion cancelada", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
 
                     }
@@ -131,7 +131,7 @@ namespace Formularios
                         catch (InventarioException ex)
                         {
 
-                            MessageBox.Show($"ERROR DE TIPO {ex.GetType()}: \nEsa consola ya esta registrada");
+                            MessageBox.Show($"ERROR DE TIPO {ex.GetType()}: \nEsa consola ya esta registrada", "Operacion cancelada", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
 
