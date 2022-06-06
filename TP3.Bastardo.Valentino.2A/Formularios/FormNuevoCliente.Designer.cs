@@ -40,6 +40,7 @@ namespace Formularios
             // 
             this.txt_nombre.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_nombre.Location = new System.Drawing.Point(226, 63);
+            this.txt_nombre.MaxLength = 100;
             this.txt_nombre.Name = "txt_nombre";
             this.txt_nombre.Size = new System.Drawing.Size(330, 32);
             this.txt_nombre.TabIndex = 0;
@@ -48,6 +49,7 @@ namespace Formularios
             // 
             this.txt_dni.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_dni.Location = new System.Drawing.Point(226, 146);
+            this.txt_dni.MaxLength = 12;
             this.txt_dni.Name = "txt_dni";
             this.txt_dni.Size = new System.Drawing.Size(330, 32);
             this.txt_dni.TabIndex = 1;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj": {}
+    "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj": {
+    "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj",
+        "projectUniqueName": "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj",
         "projectName": "Inventario",
-        "projectPath": "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj",
+        "projectPath": "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj",
         "packagesPath": "C:\\Users\\valen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\Inventario\\obj\\",
+        "outputPath": "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\Inventario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\valen\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -8,7 +8,7 @@ namespace InventarioNS
     public abstract class Producto:IMostrar
     {
         protected string nombre;
-        protected float precio;
+        protected double precio;
         protected int unidadesVendidas;
 
         public virtual string Nombre
@@ -16,7 +16,7 @@ namespace InventarioNS
             get { return nombre; }
             set { this.nombre = value; }
         }
-        public virtual float Precio
+        public virtual double Precio
         {
             get  { return precio;}
             set { this.precio = value; }
@@ -36,7 +36,7 @@ namespace InventarioNS
             this.precio = 0;
             this.unidadesVendidas = 0;
         }
-        public Producto(string nombre, float precio, int unidadesVendidas) :this(nombre)
+        public Producto(string nombre, double precio, int unidadesVendidas) :this(nombre)
         {
 
             this.precio = precio;

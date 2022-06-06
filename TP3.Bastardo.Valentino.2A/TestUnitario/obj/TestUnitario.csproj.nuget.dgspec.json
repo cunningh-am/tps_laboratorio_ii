@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\TestUnitario\\TestUnitario.csproj": {}
+    "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\TestUnitario\\TestUnitario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj": {
+    "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj",
+        "projectUniqueName": "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj",
         "projectName": "Inventario",
-        "projectPath": "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj",
+        "projectPath": "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj",
         "packagesPath": "C:\\Users\\valen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\Inventario\\obj\\",
+        "outputPath": "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\Inventario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\valen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\TestUnitario\\TestUnitario.csproj": {
+    "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\TestUnitario\\TestUnitario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\TestUnitario\\TestUnitario.csproj",
+        "projectUniqueName": "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\TestUnitario\\TestUnitario.csproj",
         "projectName": "TestUnitario",
-        "projectPath": "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\TestUnitario\\TestUnitario.csproj",
+        "projectPath": "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\TestUnitario\\TestUnitario.csproj",
         "packagesPath": "C:\\Users\\valen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\TestUnitario\\obj\\",
+        "outputPath": "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\TestUnitario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\valen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj": {
-                "projectPath": "C:\\Users\\valen\\Desktop\\UTN\\tps_laboratorio_ii-main - 1\\tps_laboratorio_ii-main\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj"
+              "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj": {
+                "projectPath": "C:\\Users\\valen\\source\\repos\\TP3.Bastardo.Valentino.2A\\Inventario\\Inventario.csproj"
               }
             }
           }

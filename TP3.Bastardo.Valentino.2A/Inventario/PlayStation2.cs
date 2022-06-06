@@ -24,7 +24,7 @@ namespace InventarioNS
         {
             
         }
-        public PlayStation2(string nombre, float precio, int unidadesVendidas, Color color) :base(nombre,precio, unidadesVendidas, color)
+        public PlayStation2(string nombre, double precio, int unidadesVendidas, Color color) :base(nombre,precio, unidadesVendidas, color)
         {
             this.tipo = TipoConsola.PS2;
         }

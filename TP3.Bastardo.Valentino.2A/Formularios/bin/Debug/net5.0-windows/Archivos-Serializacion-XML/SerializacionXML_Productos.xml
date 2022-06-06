@@ -56,4 +56,11 @@
     <Genero>Aventura</Genero>
     <ParaConsola>GameCube</ParaConsola>
   </Producto>
+  <Producto xsi:type="PlayStation2">
+    <Nombre>222222222</Nombre>
+    <Precio>999999999</Precio>
+    <UnidadesVendidas>999999999</UnidadesVendidas>
+    <Color>Blanco</Color>
+    <Tipo>PS2</Tipo>
+  </Producto>
 </ArrayOfProducto>

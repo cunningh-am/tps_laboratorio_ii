@@ -41,10 +41,10 @@ namespace TestUnitario
             Inventario inv;
             Videojuego x;
             GameCube y;
-            float resultadoEsperado;
-            float resultado;
+            double resultadoEsperado;
+            double resultado;
             //act
-            resultadoEsperado = (float)(60 * 5) + (500 * 10);
+            resultadoEsperado = (double)(60 * 5) + (500 * 10);
             inv = new Inventario();
             x = new Videojuego("Resident Evil 4", 60, 5, TipoConsola.PS2, Genero.Otro);
             y = new GameCube("GameCube Rosa", 500, 10,Color.Rosa);

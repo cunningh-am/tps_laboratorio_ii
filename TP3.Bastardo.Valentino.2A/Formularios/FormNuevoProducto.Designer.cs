@@ -54,6 +54,7 @@ namespace Formularios
             this.txt_nombreProd.BackColor = System.Drawing.SystemColors.Window;
             this.txt_nombreProd.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_nombreProd.Location = new System.Drawing.Point(215, 43);
+            this.txt_nombreProd.MaxLength = 100;
             this.txt_nombreProd.Name = "txt_nombreProd";
             this.txt_nombreProd.Size = new System.Drawing.Size(252, 32);
             this.txt_nombreProd.TabIndex = 0;
@@ -61,6 +62,7 @@ namespace Formularios
             // txt_precio
             // 
             this.txt_precio.Location = new System.Drawing.Point(215, 108);
+            this.txt_precio.MaxLength = 9;
             this.txt_precio.Name = "txt_precio";
             this.txt_precio.Size = new System.Drawing.Size(100, 23);
             this.txt_precio.TabIndex = 1;
@@ -70,6 +72,7 @@ namespace Formularios
             // txt_unidadesVendidas
             // 
             this.txt_unidadesVendidas.Location = new System.Drawing.Point(367, 108);
+            this.txt_unidadesVendidas.MaxLength = 9;
             this.txt_unidadesVendidas.Name = "txt_unidadesVendidas";
             this.txt_unidadesVendidas.Size = new System.Drawing.Size(100, 23);
             this.txt_unidadesVendidas.TabIndex = 2;

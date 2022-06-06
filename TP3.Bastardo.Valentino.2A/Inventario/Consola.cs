@@ -30,7 +30,7 @@ namespace InventarioNS
         {
 
         }
-        public Consola(string nombre, float precio, int unidadesVendidas, Color color):base(nombre,precio,unidadesVendidas)
+        public Consola(string nombre, double precio, int unidadesVendidas, Color color):base(nombre,precio,unidadesVendidas)
         {
             this.color = color;
         }

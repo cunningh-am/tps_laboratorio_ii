@@ -29,7 +29,7 @@ namespace InventarioNS
         {
 
         }
-        public Videojuego(string nombre, float precio, int unidadesVendidas, TipoConsola tipo, Genero genero):base(nombre,precio, unidadesVendidas)
+        public Videojuego(string nombre, double precio, int unidadesVendidas, TipoConsola tipo, Genero genero):base(nombre,precio, unidadesVendidas)
         {
             this.paraConsola = tipo;
             this.genero = genero;

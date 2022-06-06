@@ -16,35 +16,35 @@ namespace InventarioNS
             set{ this.inventarioEnStock = value; }
         
         }
-        public float GananciasPorJuegosDePlay2
+        public double GananciasPorJuegosDePlay2
         {
             get
             {
                 return this.CalcularGananciaJuegos(TipoConsola.PS2);
             }
         }
-        public float GananciasPorJuegosDeGameCube
+        public double GananciasPorJuegosDeGameCube
         {
             get
             {
                 return this.CalcularGananciaJuegos(TipoConsola.GameCube);
             }
         }
-        public float GananciasPorConsolasPs2
+        public double GananciasPorConsolasPs2
         {
             get
             {
                 return this.CalcularGananciaConsolas(TipoConsola.PS2);
             }
         }
-        public float GananciasPorConsolasGameCube
+        public double GananciasPorConsolasGameCube
         {
             get
             {
                 return this.CalcularGananciaConsolas(TipoConsola.GameCube);
             }
         }
-        public float GananciasTotales
+        public double GananciasTotales
         {
             get
             {
@@ -64,9 +64,9 @@ namespace InventarioNS
             razonSocial = razon;
         }
         
-        private float CalcularGananciaConsolas(TipoConsola tipo)
+        private double CalcularGananciaConsolas(TipoConsola tipo)
         {
-            float recaudado = 0;
+            double recaudado = 0;
             foreach (Producto prod in this.inventarioEnStock)
             {
                 if (prod is not Consola)
@@ -75,14 +75,14 @@ namespace InventarioNS
                 }
                 if ((prod is PlayStation2 && tipo == TipoConsola.PS2) || (prod is GameCube && tipo == TipoConsola.GameCube))
                 {
-                    recaudado += (float)prod.Precio * prod.UnidadesVendidas;
+                    recaudado += (double)prod.Precio * prod.UnidadesVendidas;
                 }
             }
             return recaudado;
         }
-        private float CalcularGananciaJuegos(TipoConsola tipo)
+        private double CalcularGananciaJuegos(TipoConsola tipo)
         {
-            float recaudado = 0;
+            double recaudado = 0;
             foreach (Producto prod in this.inventarioEnStock)
             {
                 if (prod is not Videojuego)
@@ -91,7 +91,7 @@ namespace InventarioNS
                 }
                 if (((Videojuego)prod).ParaConsola == tipo)
                 {
-                    recaudado += (float)prod.Precio * prod.UnidadesVendidas;
+                    recaudado += (double)prod.Precio * prod.UnidadesVendidas;
                 }
             }
             return recaudado;

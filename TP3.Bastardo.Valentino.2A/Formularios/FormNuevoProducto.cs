@@ -66,7 +66,7 @@ namespace Formularios
         {
 
             string nombreProd;
-            float precioProd;
+            double precioProd;
             string precioProdStr = txt_precio.Text;
             int unidadesVendidas;
             string unidadesVendidasStr = txt_unidadesVendidas.Text;
@@ -77,13 +77,16 @@ namespace Formularios
             if ( !string.IsNullOrWhiteSpace(txt_nombreProd.Text) &&
                 !string.IsNullOrWhiteSpace(precioProdStr) &&
                 !string.IsNullOrWhiteSpace(unidadesVendidasStr)&&
+                precioProdStr != "."&&
                 (esVideojuego || esConsola))
             {
 
                 nombreProd = txt_nombreProd.Text;
                 nombreProd.Trim();
 
-                precioProd = float.Parse(precioProdStr);
+
+                precioProd = Convert.ToDouble(precioProdStr);
+                
                 unidadesVendidas = int.Parse(unidadesVendidasStr);
 
 
@@ -150,7 +153,7 @@ namespace Formularios
         }
 
         /// <summary>
-        /// Permite unicamente numeros y un solo punto decimal en el textbox, para poder llenarlo con un float y ahorrar la validacion
+        /// Permite unicamente numeros y un solo punto decimal en el textbox, para poder llenarlo con un double y ahorrar la validacion
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>

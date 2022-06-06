@@ -23,7 +23,7 @@ namespace InventarioNS
         {
 
         }
-        public GameCube(string nombre, float precio, int unidadesVendidas, Color color) : base(nombre, precio, unidadesVendidas, color)
+        public GameCube(string nombre, double precio, int unidadesVendidas, Color color) : base(nombre, precio, unidadesVendidas, color)
         {
             this.tipo = TipoConsola.GameCube;
         }
