@@ -63,37 +63,7 @@ namespace InventarioNS
         {
             razonSocial = razon;
         }
-        //public bool HayStock(Cliente cliente)
-        //{
-        //    foreach (Producto prod in cliente.Pedido)
-        //    {
-        //        if ((!(this.inventarioEnStock.Contains(prod))))
-        //        {
-
-        //            return false;
-        //        }
-        //    }
-        //    return true;
-        //}
-      //  public bool ConcretarVenta(Cliente cliente)
-     //   {
-
-            //if (HayStock(cliente))
-            //{
-            //    int index;
-            //    foreach (Producto prod in cliente.Pedido)
-            //    {
-            //        index = inventarioEnStock.IndexOf(prod);
-            //        inventarioEnStock[index].UnoMasVendido();
-            //    }
-            //    cliente.VaciarPedido();
-            //    return true;
-
-            //}
-            ////implementar una excepcion de que no hay stock
-            //return false;
-     //   }
-
+        
         private float CalcularGananciaConsolas(TipoConsola tipo)
         {
             float recaudado = 0;

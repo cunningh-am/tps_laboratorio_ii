@@ -41,14 +41,6 @@ namespace InventarioNS
         {
             return Mostrar();
         }
-        //public void VaciarPedido()
-        //{
-        //    this.pedido.Clear();
-        //}
-        //public void AgregarAlPedido(Producto prod)
-        //{
-        //    this.pedido.Add(prod);
-        //}
         public static bool operator ==(Cliente c1, Cliente c2)
         {
             if(c1.dni == c2.dni)
