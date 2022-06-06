@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProducto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Producto xsi:type="Videojuego">
+    <Nombre>Silent Hill 2</Nombre>
+    <Precio>15000</Precio>
+    <UnidadesVendidas>4</UnidadesVendidas>
+    <Genero>Terror</Genero>
+    <ParaConsola>PS2</ParaConsola>
+  </Producto>
+  <Producto xsi:type="GameCube">
+    <Nombre>GameCube Rosa</Nombre>
+    <Precio>99500</Precio>
+    <UnidadesVendidas>11</UnidadesVendidas>
+    <Color>Rosa</Color>
+    <Tipo>GameCube</Tipo>
+  </Producto>
+</ArrayOfProducto>
