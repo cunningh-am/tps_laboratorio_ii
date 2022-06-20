@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProducto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Producto xsi:type="Videojuego">
+    <Id>Silent Hill 2</Id>
+    <Nombre>Silent Hill 2</Nombre>
+    <Precio>60</Precio>
+    <UnidadesVendidas>100</UnidadesVendidas>
+    <Genero>Terror</Genero>
+    <ParaConsola>PS2</ParaConsola>
+  </Producto>
+  <Producto xsi:type="Videojuego">
+    <Id>Resident Evil 4</Id>
+    <Nombre>Resident Evil 4</Nombre>
+    <Precio>40</Precio>
+    <UnidadesVendidas>10</UnidadesVendidas>
+    <Genero>Accion</Genero>
+    <ParaConsola>GameCube</ParaConsola>
+  </Producto>
+  <Producto xsi:type="Videojuego">
+    <Id>GTA San Andreas</Id>
+    <Nombre>GTA San Andreas</Nombre>
+    <Precio>100</Precio>
+    <UnidadesVendidas>15</UnidadesVendidas>
+    <Genero>Otro</Genero>
+    <ParaConsola>PS2</ParaConsola>
+  </Producto>
+  <Producto xsi:type="Videojuego">
+    <Id>Okami</Id>
+    <Nombre>Okami</Nombre>
+    <Precio>50</Precio>
+    <UnidadesVendidas>2</UnidadesVendidas>
+    <Genero>Aventura</Genero>
+    <ParaConsola>PS2</ParaConsola>
+  </Producto>
+  <Producto xsi:type="Videojuego">
+    <Id>Luigi Telo</Id>
+    <Nombre>Luigi Telo</Nombre>
+    <Precio>12</Precio>
+    <UnidadesVendidas>100</UnidadesVendidas>
+    <Genero>Puzzle</Genero>
+    <ParaConsola>GameCube</ParaConsola>
+  </Producto>
+  <Producto xsi:type="Videojuego">
+    <Id>Neiner 9</Id>
+    <Nombre>Neiner 9</Nombre>
+    <Precio>25</Precio>
+    <UnidadesVendidas>25</UnidadesVendidas>
+    <Genero>Accion</Genero>
+    <ParaConsola>PS2</ParaConsola>
+  </Producto>
+  <Producto xsi:type="Videojuego">
+    <Id>PES 2011 Liga Chaco</Id>
+    <Nombre>PES 2011 Liga Chaco</Nombre>
+    <Precio>60</Precio>
+    <UnidadesVendidas>1000</UnidadesVendidas>
+    <Genero>Deporte</Genero>
+    <ParaConsola>PS2</ParaConsola>
+  </Producto>
+  <Producto xsi:type="Videojuego">
+    <Id>Resident Evil 4</Id>
+    <Nombre>Resident Evil 4</Nombre>
+    <Precio>35</Precio>
+    <UnidadesVendidas>120</UnidadesVendidas>
+    <Genero>Accion</Genero>
+    <ParaConsola>PS2</ParaConsola>
+  </Producto>
+  <Producto xsi:type="PlayStation2">
+    <Id>PlayStation 2 Rosa</Id>
+    <Nombre>PlayStation 2 Rosa</Nombre>
+    <Precio>600</Precio>
+    <UnidadesVendidas>4</UnidadesVendidas>
+    <Color>Rosa</Color>
+    <Tipo>PS2</Tipo>
+  </Producto>
+  <Producto xsi:type="PlayStation2">
+    <Id>PlayStation 2 Negra</Id>
+    <Nombre>PlayStation 2 Negra</Nombre>
+    <Precio>500</Precio>
+    <UnidadesVendidas>27</UnidadesVendidas>
+    <Color>Negro</Color>
+    <Tipo>PS2</Tipo>
+  </Producto>
+  <Producto xsi:type="PlayStation2">
+    <Id>PlayStation 2 Blanca</Id>
+    <Nombre>PlayStation 2 Blanca</Nombre>
+    <Precio>500</Precio>
+    <UnidadesVendidas>4</UnidadesVendidas>
+    <Color>Blanco</Color>
+    <Tipo>PS2</Tipo>
+  </Producto>
+  <Producto xsi:type="GameCube">
+    <Id>GameCube Blanca</Id>
+    <Nombre>GameCube Blanca</Nombre>
+    <Precio>700</Precio>
+    <UnidadesVendidas>1</UnidadesVendidas>
+    <Color>Blanco</Color>
+    <Tipo>GameCube</Tipo>
+  </Producto>
+  <Producto xsi:type="GameCube">
+    <Id>GameCube Bostera</Id>
+    <Nombre>GameCube Bostera</Nombre>
+    <Precio>350</Precio>
+    <UnidadesVendidas>15</UnidadesVendidas>
+    <Color>Otro</Color>
+    <Tipo>GameCube</Tipo>
+  </Producto>
+  <Producto xsi:type="GameCube">
+    <Id>GameCube Rosa</Id>
+    <Nombre>GameCube Rosa</Nombre>
+    <Precio>670</Precio>
+    <UnidadesVendidas>25</UnidadesVendidas>
+    <Color>Rosa</Color>
+    <Tipo>GameCube</Tipo>
+  </Producto>
+  <Producto xsi:type="Videojuego">
+    <Id>Test</Id>
+    <Nombre>Test</Nombre>
+    <Precio>2</Precio>
+    <UnidadesVendidas>1</UnidadesVendidas>
+    <Genero>Accion</Genero>
+    <ParaConsola>PS2</ParaConsola>
+  </Producto>
+</ArrayOfProducto>
